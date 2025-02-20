@@ -1,0 +1,178 @@
+[
+  {
+    "songname": "El Club",
+    "autor": "Bad Bunny",
+    "duration": 354,
+    "lyrics": [
+      {
+        "text": "Dos de la mañana en",
+        "newClass": "t-1",
+        "time": 19,
+        "duration": 1,
+        "position": [1]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 20,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "el club",
+        "newClass": "t-6",
+        "time": 20,
+        "duration": 0,
+        "position": [1]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 21.2,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "To' el mundo",
+        "newClass": "t-1",
+        "time": 21.2,
+        "duration": 0.5,
+        "position": [1]
+      },
+      {
+        "text": "pasándola cabrón",
+        "newClass": "t-1",
+        "time": 21.7,
+        "duration": 1,
+        "position": [2]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 23.7,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "las mujeres encima de mí",
+        "newClass": "t-1",
+        "time": 23.7,
+        "duration": 1.3,
+        "position": [1]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 26,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "La hookah,",
+        "newClass": "t-1",
+        "time": 26,
+        "duration": 0.5,
+        "position": [1]
+      },
+      {
+        "text": "la pastilla y un blunt",
+        "newClass": "t-1",
+        "time": 26.5,
+        "duration": 1,
+        "position": [2]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 28.5,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "la que yo quiera dice que sí",
+        "newClass": "t-1",
+        "time": 28.5,
+        "duration": 1.8,
+        "position": [1]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 30.8,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "bien loco cantando ",
+        "newClass": "t-1",
+        "time": 30.8,
+        "duration": 1,
+        "position": [1]
+      },{
+        "text": "'La canción'",
+        "newClass": "t-4",
+        "time": 31.8,
+        "duration": 0.6,
+        "position": [2]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 32.4,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "Después de aquí nos vamos pa'—",
+        "newClass": "t-1",
+        "time": 32.4,
+        "duration": 1.7,
+        "position": [1]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 34.6,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "¿qué estará haciendo",
+        "newClass": "t-1",
+        "time": 36.6,
+        "duration": 2,
+        "position": [1]
+      },
+      {
+        "text": "mi ex?",
+        "newClass": "t-2",
+        "time": 38.6,
+        "duration": 0.5,
+        "position": [2]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 40.6,
+        "duration": 0,
+        "position": [1, 2, 3]
+      },
+      {
+        "text": "que hace tiempo",
+        "newClass": "t-1",
+        "time": 40.6,
+        "duration": 1,
+        "position": [1]
+      },
+      {
+        "text": "por ahí no se ve",
+        "newClass": "t-1",
+        "time": 41.6,
+        "duration": 2,
+        "position": [2]
+      }
+      
+      
+    ]
+  }
+]
