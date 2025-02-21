@@ -6,7 +6,6 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
-gsap.registerPlugin(ScrambleTextPlugin);
 gsap.registerPlugin(TextPlugin);
 
 function TestSongV2() {
@@ -36,7 +35,8 @@ function TestSongV2() {
         tl.current = gsap
           .timeline({
             paused: true,
-          }).to(text1.current, {
+          })
+          .to(text1.current, {
             duration: 0.4,
             text: {
               value: song.songname,
@@ -72,6 +72,11 @@ function TestSongV2() {
             },
             time
           );
+        });
+
+        tl.current.to(filter.current, {
+          backdropFilter: "blur(0px)",
+          duration: 1,
         });
       })
       .catch((error) => {
