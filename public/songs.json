@@ -2,7 +2,7 @@
   {
     "songname": "El Club",
     "autor": "Bad Bunny",
-    "duration": 354,
+    "duration": 355,
     "lyrics": [
       {
         "text": "Dos de la mañana en",
@@ -670,6 +670,20 @@
         "position": [1, 2, 3]
       },
       {
+        "text": "Ey",
+        "newClass": "",
+        "time": 123.7,
+        "duration": 0,
+        "position": [4]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 124.1,
+        "duration": 0,
+        "position": [4]
+      },
+      {
         "text": "¿que estará haciendo",
         "newClass": "t-1",
         "time": 124.5,
@@ -1025,6 +1039,20 @@
         "time": 215.7,
         "duration": 0,
         "position": [1, 2, 3]
+      },
+      {
+        "text": "eh-eh",
+        "newClass": "",
+        "time": 216.3,
+        "duration": 0,
+        "position": [4]
+      },
+      {
+        "text": "",
+        "newClass": "",
+        "time": 217,
+        "duration": 0,
+        "position": [4]
       },
       {
         "text": "Espero,",
