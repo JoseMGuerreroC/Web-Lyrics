@@ -21,28 +21,36 @@
   backdrop-filter: blur(10px);
 }
 
-.pauseButton {
+.videoMenu{
+  display: flex;
+  justify-content: space-between;
   position: absolute;
   top: 0;
   left: 0;
-  margin: 20px;
-  background: none;
-  border: none;
-  color: #fff;
+  height: auto;
+  padding: 20px;
+  width: 100%;
   z-index: 150;
-  font-size: 20px;
+
 }
 
-.restartButton {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 20px;
+.controlBtn{
   background: none;
   border: none;
   color: #fff;
-  z-index: 150;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.songinfo{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-shadow: 2px 2px 3px #000;
+  max-width: 200px;
 }
 
 .lyricCont {
@@ -60,19 +68,100 @@
 .lyricCont .text span {
   display: block;
   text-align: center;
+  text-shadow: 4px 4px 5px #000;
 }
 
-.progressBar {
+.subMenuCont{
+  width: 100%;
   position: absolute;
-  left: 0;
   bottom: 0;
-  right: 0;
-  width: 90%;
-  z-index: 1000;
-  padding: 10px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  margin-bottom: 25px;
+  z-index: 150;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
 }
+
+.back5, .front5{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back5 span, .front5 span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  position: absolute;
+  transform: translateY(-15px);
+}
+
+.progressTimer{
+  position: absolute;
+  font-size: 15px;
+  bottom: 25px;
+  left: 10px;
+  z-index: 150;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.progressCont{
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1050;
+  background: #fff;
+  opacity: .1;
+  cursor: pointer;
+}
+
+.progress{
+  width: 0%;
+  height: 20px;
+  background: white;
+  z-index: 1000;
+  position: absolute;
+  bottom: 0;
+}
+
+.symbolAlert{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 250;
+  opacity: 0;
+}
+
+.symbolAlert i{
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.subLyrics{
+  font-size: clamp(15px, 5.5vw, 30px);
+  z-index: 200;
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-90px);
+  bottom: 0;
+}
+
 
 .atemica {
   font-family: "Atemica";
@@ -92,7 +181,7 @@
 }
 
 .t-1 {
-  font-size: clamp(15px, 5.5vw, 100px);
+  font-size: clamp(15px, 5.5vw, 80px);
 }
 
 .t-2 {
@@ -112,5 +201,13 @@
 }
 
 .t-6 {
-  font-size: clamp(35px, 9.5vw, 300px);
+  font-size: clamp(35px, 15vw, 300px);
+}
+
+
+@media (max-height:500px){
+  .subLyrics{
+    font-size: 20px;
+    transform: translateY(-75px);
+  }
 }
