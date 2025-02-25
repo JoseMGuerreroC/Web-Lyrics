@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./main.css";
 
-import TestSongV2 from "./components/TestSongV2";
+import VideoPlayer from "./components/videoplayer/VideoPlayer";
+import MainPage from "./components/mainpage/MainPage";
 
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<Navigate to="/testSongV2" replace />}
+            element={<MainPage></MainPage>}
           ></Route>
-          <Route path="/testSongV2" element={<TestSongV2></TestSongV2>}></Route>
+          <Route path="/video" element={<VideoPlayer></VideoPlayer>}></Route>
         </Routes>
       </BrowserRouter>
     </>

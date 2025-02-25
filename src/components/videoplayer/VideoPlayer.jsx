@@ -1,4 +1,4 @@
-import "./TestCss.css";
+import "./VideoPlayer.css";
 import { useEffect, useRef, useState } from "react";
 
 import gsap from "gsap";
@@ -7,7 +7,7 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(TextPlugin);
 
-function TestSongV2() {
+function VideoPlayer() {
   const videoplayer = useRef();
   const { contextSafe } = useGSAP({ scope: videoplayer });
   const video = useRef();
@@ -251,9 +251,9 @@ function TestSongV2() {
       <div className="symbolAlert">
         <i className={`fa-solid ${symbol}`}></i>
       </div>
-      <p ref={text4} className="subLyrics atemica"></p>
+      zz
     </div>
   );
 }
 
-export default TestSongV2;
+export default VideoPlayer;
